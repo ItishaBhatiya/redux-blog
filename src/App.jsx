@@ -5,11 +5,8 @@ import { useSelector } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
-
-  
   let data = useSelector((store)=>store)
   console.log(data);
-  
   return (
     <div>
       <Navbar />

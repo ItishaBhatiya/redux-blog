@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div>
       <Form className='w-25 m-auto mt-5' onSubmit={handleSubmit}>
-      <h2 className='mt-5'>SIGNUP</h2>
+      <h2 className='mt-5'>LOGIN</h2>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter Your email" onChange={(e)=>setemail(e.target.value)} value={email} />
